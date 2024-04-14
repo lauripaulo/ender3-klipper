@@ -62,6 +62,14 @@ primary_branch = main
 is_system_service = False
 managed_services = klipper
 
+[update_manager KAMP]
+type = git_repo
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+path = /home/lauri/Klipper-Adaptive-Meshing-Purging
+primary_branch = main
+is_system_service = False
+managed_services = klipper
+
 [file_manager]
 enable_object_processing = True
 
