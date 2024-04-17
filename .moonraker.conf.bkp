@@ -73,3 +73,18 @@ managed_services = klipper
 [file_manager]
 enable_object_processing = True
 
+[update_manager octoapp]
+type = git_repo
+channel = beta
+path = /home/lauri/octoapp
+origin = https://github.com/crysxd/OctoApp-Plugin.git
+env = /home/lauri/octoapp-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoapp
+
+[announcements]
+subscriptions = 
+	octoapp.
+
